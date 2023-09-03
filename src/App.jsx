@@ -12,14 +12,14 @@ function App() {
   setMode('dark')
   document.body.style.backgroundColor = '#042743'
   document.body.style.color = 'white'
-
+  document.title = 'Text Utils - Dark Mode'
  }
  else
  {
   setMode('light')
   document.body.style.backgroundColor = 'white'
   document.body.style.color = 'black'
-
+  document.title = 'Text Utils - Light Mode'
  }
   }
   return (

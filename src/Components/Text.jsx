@@ -21,7 +21,7 @@ const Text = (props) => {
   <button  className="mx-2 btn btn-success" onClick={handlelo}>Lower Case</button>
   <h4 >Number of  characters used are {text.length}</h4>
   <h4 className='my-2'>Number of words used are {text.split(" ").length-1}</h4>
-  <h4 className='my-2'>Time to read wil be  {0.008 * text.split(" ").length} <strong>Minutes</strong></h4>
+  <h4 className='my-2'>Time to read wil be  {0.008 * text.split(" ").length-" "} <strong>Minutes</strong></h4>
   <h2>Preview</h2>
   <p>{text.length > 0 ? text:"Enter something in the above text box to get a preview here"}</p>
   </> 
